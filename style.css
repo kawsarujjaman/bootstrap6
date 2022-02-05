@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Nunito:wght@300&family=Playfair+Display&family=Ubuntu:ital,wght@0,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #f5f5f5 !important;
+    font-family: 'Nunito', sans-serif; 
+    font-family: 'Playfair Display', serif;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Bree Serif', serif;
+}
+a{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    text-decoration: none;
+}
+
+/* Header start here */
+header .navbar-brand img {
+    width: 100px;
+    height: 50px;
+    margin: auto;
+}
+
+header a.navbar-brand {
+    display: grid;
+    font-size: 10px;
+    color: black;
+    letter-spacing: 4px;
+    font-weight: 600;
+    margin-left: 50px;
+}
+a.nav-link {
+    color: #888;
+}
+header .col-md-3 .btn-group .btn {
+    background: white;
+    border: 2px solid #e2e2e2;
+    margin-right: 10px;}
+
+header .col-md-3 .btn-group .btn:last-child{
+    background: #24953e;
+    color: white;
+}
+header .col-md-3 .btn-group .btn a {
+    color: black;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+header .col-md-3.col-sm-12 {
+    margin: auto;
+    display: flex;
+}
+
+
+/* Banner starts here */
+.banner-section {
+    background-image: url(images/6.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+}
+.banner-content{
+    background: rgba(0,0,0,0.8);
+    height: 100%;
+    color: white;
+    width: 100%;
+}
+.banner-content h1 {
+    font-size: 56px;
+    font-weight: 600;
+    padding-top: 70px;
+    font-family: fangsong;
+}
+.banner-content p {
+    padding: 5px 399px;
+}
+
+.banner-content h6 {
+    font-weight: 500;
+    padding-bottom: 12px;
+}
+li.list-inline-item {
+    border: 1px solid #999;
+    font-size: 12px;
+    padding: 3px 8px;
+    color: #999;
+}
+
+.advance-search {
+    background: #fff;
+    padding: 40px 10px 25px 10px;
+    position: relative;
+    top: -50px;
+    border-radius: 3px;
+    box-shadow: -1px 3px 6px rgb(0 0 0 / 12%);
+}
+/* Trend */
+section.trend {
+    padding: 70px 0px;
+}
+.section-title>h2 {
+    font-size: 40px;
+    color: #444;
+}
+
+.section-title>p {
+    color: #888;
+}
+
+.section-title::after {
+    content: "";
+    width: 50px;
+    position: relative;
+    background: #5672f9;
+    display: block;
+    height: 5px;
+    left: 0;
+    top: 0;
+    margin: 0 auto;}
+
+.section-title::before {
+    content: "";
+    background: #e0e0e0;
+    width: 150px;
+    height: 2px;
+    display: block;
+    margin: 0 auto;
+    left: 0;
+    top: 100px;
+    position: relative;}
+
+    /* Card start here */
+    .card-body img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .card-title>h4 {
+        color: #666;
+        padding-top: 18px;
+        font-size: 22px;
+        text-align: center;
+    }
+    
+    .card-title>p {
+        color: #888;
+        font-size: 14px;
+    }
+    .card-title p span {
+        padding-left: 20px;
+    }
+    
+    .stars i {
+        color: #5672f9;
+    }
+    .cards-section .card {
+        box-shadow: -1px 3px 6px rgb(0 0 0 / 12%);
+    }
+    
+    .cards-section {
+        padding-top: 50px;
+    }
+
+    /* Catagory section starts here */
+    .catagory{
+        background-color: white ;
+        padding: 70px 0px;
+    }
+
+    .card-header i {
+        background: #11c106;
+        font-size: 12px;
+        padding: 15px;
+        color: white;
+    }
+    .card-header h6 {
+        font-family: 'Ubuntu';
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+    .card-body p span {
+        margin-left: auto;
+    }
+    
+    .card-body p {
+        display: flex;
+    }
+    .card-header i {
+        margin-bottom: 12px;
+    }
+    /* Testimonials statrs here */
+
+    .testimonials{
+        background-image: url(images/5.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        
+    }
+    .testimonials-content{
+        background: rgba(0,0,0,0.3);
+        width: 100%;
+        height: 100%;
+        color: white;
+    }
+    .testimonials-content h4{
+        padding-top: 70px;
+        
+    }
+    .testimonials .btn-group{
+        padding-bottom: 70px;
+    }
+    .testimonials .btn-main{
+        background: #5672f9;
+        color: white;
+        padding: 10px 15px;
+    }
+    .testimonials .btn a{
+        color: white;
+        text-decoration: none;
+    }
+    button.btn.btn-primary {
+        margin-right: 12px;
+        padding: 10px 30px;
+        border-radius: 6px;
+    }
+    button.btn.btn-primary:hover{
+        background: blue;
+    }
+    button.btn.btn-primary a {
+        font-size: 18px;
+    }
+    
+    button.btn.btn-secondary {
+        background: white;
+        transition: all 0.3s ease-in;
+        -webkit-transition: all 0.3s ease-in;
+        -moz-transition: all 0.3s ease-in;
+        -ms-transition: all 0.3s ease-in;
+        -o-transition: all 0.3s ease-in;
+}
+button.btn.btn-secondary:hover{
+    background: blue;
+}
+button.btn.btn-secondary a {
+        color: black;
+        font-size: 18px;
+        padding: 10px;
+        border-radius: 3px;
+        transition: all 0.3s ease-in;
+        -webkit-transition: all 0.3s ease-in;
+        -moz-transition: all 0.3s ease-in;
+        -ms-transition: all 0.3s ease-in;
+        -o-transition: all 0.3s ease-in;
+    }
+    button.btn.btn-secondary a:hover{
+        color: white;
+    }
+
+    /* Footer starts here */
+    footer{
+        background: #222;
+        color: white;
+        padding: 70px 0;
+    }
+    footer img {
+        height: 50px;
+        display: flex;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 12px !important;
+        width: 150px;
+    }
+    .footer-text a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .footer-text p {
+        color: #c3c3c3;
+    }
+    footer li.list-group-item {
+        background: no-repeat;
+        color: #8e8e8e;
+    }
+    li.list-group-item a {
+        color: #7d7d7d;
+    }
+    .footer-aps-icon {
+        background: #444;
+      
+    }
+    .aps-text{
+        display: flex;
+    }
+    .footer-aps-icon i {
+        font-size: 60px;
+        padding: 10px 20px;
+    }
+
+    .aps-icon {
+        display: flex;
+        padding: 20px;
+    }
+    
+    .aps-icon img {
+        width: 100%;
+    }
+    .copywrite {
+        background: #444;
+        color: #a2a2a2;
+    }
+    
+    .copywrite p {
+        padding: 30px 80px;
+    }
+    
+    .copywrite a {
+        color: white;
+    }
+
+    

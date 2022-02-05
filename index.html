@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classified Marketplace Bootstrap sample website</title>
+     <!-- CSS LINK -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Responsive link -->
+    <link rel="stylesheet" href="responsive.css">
+    <!-- FONT AWOSEME CDN LINK -->
+    <script src="https://kit.fontawesome.com/71f2e6313b.js" crossorigin="anonymous"></script>
+	  <!-- jQuery cdn  -->
+	  <script src="jquery-3.5.1.min.js"></script>
+    <!-- BOOTSTRAP CDN LINK -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+   <!-- https://demo.themefisher.com/classimax/index.html -->
+    
+   <header>
+       <div class="container-fliud">
+           <div class="row">
+            <div class="col-md-9 col-sm-12">
+                <nav class="navbar navbar-expand-lg">
+                    <a class="navbar-brand" href="#"><img src="images/logo.png" alt="Logo"> Classified Marketplace</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                      <i class="fas fa-bars"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                      <ul class="navbar-nav d-flex ml-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="#">Home </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Dashboard
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <a class="dropdown-item" href="#">Action</a>
+                              <a class="dropdown-item" href="#">Another action</a>
+                              <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                             Pages
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <a class="dropdown-item" href="#">Action</a>
+                              <a class="dropdown-item" href="#">Another action</a>
+                              <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                          </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Listing
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+               </div>
+               <div class="col-md-3 col-sm-12">
+                   <div class="btn-group">
+                       <button class="btn "> <a href="#"> Login</a> </button>
+                       <button class="btn "> <a href="#"> <i class="fa fa-plus-circle"></i> Add Listing</a> </button>
+    
+                   </div>
+               </div>
+           </div>
+         
+
+           <div class="banner-section">
+               <div class="banner-content text-center">
+                   <h1>Buy & Sell Near You</h1>
+                   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi pariatur veniam deleniti similique natus aspernatur sunt architecto minima maxime eos!</p>
+                   <h6>POPULAR CATEGORY</h6>
+                <div class="banner-link">
+                    <ul class="list-inline">
+                        <li class="list-inline-item"> <i class="fa fa-bed"></i> Hotel </li>
+                        <li class="list-inline-item"> <i class="fa fa-grav"></i> Fitness </li>
+                        <li class="list-inline-item"> <i class="fa fa-car"></i> Cars </li>
+                        <li class="list-inline-item"> <i class="fa fa-cutlery"></i> Resturent </li>
+                        <li class="list-inline-item"> <i class="fa fa-coffee"></i> cafe </li>
+                    </ul>
+                </div>
+               </div>
+            </div>
+           </div>
+
+        <div class="container advance-search">
+            <div class="container">
+                <form action="">
+                   <div class="row justify-content-center">
+                    <div class="form-group col-xl-4 col-lg-3 col-md-6">
+                        <input type="text" class="form-control my-2 my-lg-1" placeholder="What are you looking for">
+                    </div>
+                    <div class="form-group  col-lg-3 col-md-6">
+                       <select name="" id="" class="w-100 form-control mt-lg-1 mt-md-2">
+                            <option > Catagory</option>
+                            <option value="1"> Top Rated</option>
+                            <option value="2">  Lowest Price</option>
+                            <option value="3"> Highest Price</option>
+
+                        </select>
+                    </div>
+                    <div class="form-group col-lg-3 col-md-6">
+                        <input type="text" class="form-control my-2 my-lg-1" placeholder="Location">
+                    </div>
+                    <div class="form-group col-xl-2 col-lg-3 col-md-6 align-self-center">
+                        <button type="submit" class="btn btn-primary active w-100"> Search Now</button>
+                    </div>
+                   </div>
+                </form>
+            </div>
+        </div>
+   </header>
+<main>
+    <!-- Trending Adds starts here -->
+    <section class="trend">
+        <div class="section-title text-center">
+            <h2>Trending Adds</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="cards-section container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="images/3.jpeg" alt="" class="img-top">
+                        
+                            <div class="card-title">
+                                <h4>11inch Macbook Air</h4>
+                                <p> <i class="fa fa-folder-open-o"></i> Electronics <span> <i class="fa fa-calendar"></i> 26th December </span> </p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, aliquam!</p>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fa fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="images/4.jpeg" alt="" class="img-top">
+                        
+                            <div class="card-title">
+                                <h4>Full Study Table Combo</h4>
+                                <p> <i class="fa fa-folder-open-o"></i> Electronics <span> <i class="fa fa-calendar"></i> 26th December </span> </p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, aliquam!</p>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="images/5.jpeg" alt="" class="img-top">
+                        
+                            <div class="card-title">
+                                <h4>WiFi Ip Camera</h4>
+                                <p> <i class="fa fa-folder-open-o"></i> Electronics <span> <i class="fa fa-calendar"></i> 26th December </span> </p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, aliquam!</p>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fa fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Catagory section starts here  -->
+
+     <section class="catagory">
+         <div class="container">
+            <div class="section-title text-center">
+                <h2>All Categories</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+
+           <div class="row py-5">
+               <div class="col-md-3">
+                     <div class="card">
+                        <div class="card-header text-center">
+                            <i class="fa fa-laptop fa-2x rounded-circle "></i>
+                            <h6>Electronics</h6>
+                        </div>
+                        <div class="card-body">
+                        <p>Laptops <span>93</span></p>
+                        <p>iPhones <span>233</span></p>
+                        <p>Microsoft <span>183</span></p>
+                        <p>Monitors <span>343</span></p>
+
+                    </div>
+                    </div>
+               </div>
+
+               <div class="col-md-3">
+                <div class="card">
+                   <div class="card-header text-center">
+                       <i class="fa fa-apple fa-2x rounded-circle "></i>
+                       <h6>Resturent</h6>
+                   </div>
+                   <div class="card-body">
+                   <p>Laptops <span>93</span></p>
+                   <p>iPhones <span>233</span></p>
+                   <p>Microsoft <span>183</span></p>
+                   <p>Monitors <span>343</span></p>
+
+               </div>
+               </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card">
+               <div class="card-header text-center">
+                   <i class="fa fa-home fa-2x rounded-circle "></i>
+                   <h6>Real Estate</h6>
+               </div>
+               <div class="card-body">
+               <p>Laptops <span>93</span></p>
+               <p>iPhones <span>233</span></p>
+               <p>Microsoft <span>183</span></p>
+               <p>Monitors <span>343</span></p>
+
+           </div>
+           </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card">
+           <div class="card-header text-center">
+               <i class="fa fa-shopping-basket fa-2x rounded-circle "></i>
+               <h6>Shoppings</h6>
+           </div>
+           <div class="card-body">
+           <p>Laptops <span>93</span></p>
+           <p>iPhones <span>233</span></p>
+           <p>Microsoft <span>183</span></p>
+           <p>Monitors <span>343</span></p>
+
+       </div>
+       </div>
+  </div>
+           </div>
+
+           <div class="row py-5">
+            <div class="col-md-3">
+                  <div class="card">
+                     <div class="card-header text-center">
+                         <i class="fa fa-laptop fa-2x rounded-circle "></i>
+                         <h6>Electronics</h6>
+                     </div>
+                     <div class="card-body">
+                     <p>Laptops <span>93</span></p>
+                     <p>iPhones <span>233</span></p>
+                     <p>Microsoft <span>183</span></p>
+                     <p>Monitors <span>343</span></p>
+
+                 </div>
+                 </div>
+            </div>
+
+            <div class="col-md-3">
+             <div class="card">
+                <div class="card-header text-center">
+                    <i class="fa fa-apple fa-2x rounded-circle "></i>
+                    <h6>Resturent</h6>
+                </div>
+                <div class="card-body">
+                <p>Laptops <span>93</span></p>
+                <p>iPhones <span>233</span></p>
+                <p>Microsoft <span>183</span></p>
+                <p>Monitors <span>343</span></p>
+
+            </div>
+            </div>
+       </div>
+
+       <div class="col-md-3">
+         <div class="card">
+            <div class="card-header text-center">
+                <i class="fa fa-home fa-2x rounded-circle "></i>
+                <h6>Real Estate</h6>
+            </div>
+            <div class="card-body">
+            <p>Laptops <span>93</span></p>
+            <p>iPhones <span>233</span></p>
+            <p>Microsoft <span>183</span></p>
+            <p>Monitors <span>343</span></p>
+
+        </div>
+        </div>
+   </div>
+
+   <div class="col-md-3">
+     <div class="card">
+        <div class="card-header text-center">
+            <i class="fa fa-shopping-basket fa-2x rounded-circle "></i>
+            <h6>Shoppings</h6>
+        </div>
+        <div class="card-body">
+        <p>Laptops <span>93</span></p>
+        <p>iPhones <span>233</span></p>
+        <p>Microsoft <span>183</span></p>
+        <p>Monitors <span>343</span></p>
+
+    </div>
+    </div>
+</div>
+        </div>
+         </div>
+     </section>
+
+     <!-- Testimonials statrs here -->
+     
+     <section class="testimonials">
+         <div class="container-fluid p-0">
+             <div class="testimonials-content text-center">
+                 <h4>Start today to get more exposure and grow your business</h4>
+             
+              <div class="btn-group">
+                <button class="btn btn-primary"> <a href="#"> Add Listing</a> </button>
+                <button class="btn btn-secondary"> <a href="#"> Browser Listing </a> </button>
+              </div>
+            </div>
+         </div>
+     </section>
+</main>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="footer-text">
+                    <a href="#"><img src="images/logo.png" alt="Logo"> <p class="text-center"> Classified Marketplace </p></a>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil mollitia adipisci quisquam, dolor suscipit voluptatem. Quis labore autem deleniti omnis?</p>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="page-links">
+                    <h6>Site Pages</h6>
+                    <ul class="list-group">
+                        <li class="list-group-item"> <a href="#"> My Ads </a></li>
+                        <li class="list-group-item"> <a href="#">Favourite  Ads </a></li>
+                        <li class="list-group-item"> <a href="#"> Archived Ads </a></li>
+                        <li class="list-group-item"> <a href="#"> Pending Ads </a></li>
+                        <li class="list-group-item"> <a href="#"> Tearm & Conditions </a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="admin-link">
+                    <h6>Admin pages</h6>
+                    <ul class="list-group">
+                        <li class="list-group-item"> <a href="#">Catagory </a></li>
+                        <li class="list-group-item"> <a href="#">Singel Page </a></li>
+                        <li class="list-group-item"> <a href="#">Store Single </a></li>
+                        <li class="list-group-item"> <a href="#">Singel Post </a></li>
+                        <li class="list-group-item"> <a href="#">Blog </a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="footer-aps-icon">
+                   <div class="aps-text">
+                    <i class="fas fa-mobile-alt"></i>
+                    <p>Get the deasly mObile App and save more </p>
+                   </div>
+                    <div class="aps-icon">
+                       <a class="btn" href="#"> <img src="images/android-google-logo-hd.png" alt="playstore icon"> </a> 
+                       <a class="btn" href="#">  <img src="images/apple app.png" alt="Apple icon"> </a>
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+            
+           
+    </div>
+
+</footer>
+<div class="container-fluid p-0">
+    <div class="copywrite">
+        <p> Copywrite &copy; 2021. Designed & Developed by <a href="mkawsar.com"> Kawsarujjaman</a></p>
+    </div> 
+</div>
+
+    <!-- jQuery, Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+<script>
+        $('.navbar-collapse a').click(function(){
+            $(".navbar-collapse").collapse('hide');
+        });
+    </script>
+	
+	
+
+</body>
+</html>
